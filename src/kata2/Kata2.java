@@ -12,13 +12,10 @@ public class Kata2 {
                        4 , 4 , 100 , 4 , 5 , 5 , 5 ,
                        5 , 5 , 5 , 6 , 100 , 6 , 6 ,
                        100 , 6 , 6 , 6 , 6 , 8 , 6 };
-        
-        Map<Integer, Integer> histogram = new HashMap<Integer, Integer>();
-            for (int key : data) {
-                histogram.put(key, histogram.containsKey(key) ? histogram.get(key) + 1 : 1);
-            }
-        for (Integer key : histogram.keySet()) {
-            System.out.println(key + "==>" + histogram.get(key));
+        Histogram histo = new Histogram(data);
+        Map<Integer,Integer> histogr = histo.getHistogram();
+        for (Integer key : histogr.keySet()) {
+            System.out.println(key + "==>" + histogr.get(key));
             }
         }
 
