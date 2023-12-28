@@ -1,4 +1,4 @@
-<h1 align="center">Kata2 - Array Value Frequency Calculator 📊</h1>
+<h1 align="center">Array Value Frequency Calculator 📊</h1>
 
 This Java application provides a simple way to calculate the frequency of each value in an array. It uses the `Histogram` class to perform this calculation and the `Kata2` class as the entry point to demonstrate its functionality.
 
