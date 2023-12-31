@@ -25,4 +25,5 @@ The `Kata2` class serves as the entry point for the application. In the `main` m
 
 ## Contributions 🤝
 
+<img align="left" width="180" height="100" src="https://github.com/AlejandroDavidArzolaSaavedra/Kata-Frequency-Calculator/assets/90756437/6d6a1cd1-4cef-4fef-85fa-170488ab17ba"></a>
 Feel free to contribute to this project, whether by reporting issues, suggesting improvements, or proposing new features. Every contribution is welcome!
