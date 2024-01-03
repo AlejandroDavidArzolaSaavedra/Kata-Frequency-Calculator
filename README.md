@@ -14,11 +14,6 @@ The application revolves around two main classes:
 
 The `Histogram` class takes a generic type `T` array in its constructor and provides a `getHistogram` method that returns a map (`Map`) mapping each unique value in the array to its corresponding frequency.
 
-#### Methods 📚
-
-- `public T[] getData()`: Returns the data array used for histogram calculation.
-- `public Histogram(T[] data)`: Constructor that accepts the data array.
-
 ### Kata2 🧮
 
 The `Kata2` class serves as the entry point for the application. In the `main` method, the usage of the `Histogram` class is illustrated with an example string array.
