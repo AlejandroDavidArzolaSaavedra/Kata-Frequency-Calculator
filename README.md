@@ -8,10 +8,6 @@ This Java application provides a simple way to calculate the frequency of each v
 
 ## Usage 🚀
 
-The application revolves around two main classes:
-
-### Histogram 📈
-
 The `Histogram` class takes a generic type `T` array in its constructor and provides a `getHistogram` method that returns a map (`Map`) mapping each unique value in the array to its corresponding frequency.
 
 ## Contributions 🤝
